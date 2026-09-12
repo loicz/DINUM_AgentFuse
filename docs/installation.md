@@ -2,7 +2,7 @@
 
 AgentFuse s’installe comme **bibliothèque Python dans le backend de l’application qui exécute les outils de l’agent**. Le paquet distribué s’appelle `agentfuse-pilot`, le module importé `agentfuse`. Le cœur fonctionne dans le processus de l’application ; il ne démarre aucun serveur et n’appelle aucun modèle.
 
-Cette procédure concerne le composant. Les commandes `tools/setup.py`, `tools/setup_mail.py`, `start.py` et `agentfuse-ui` servent uniquement à la démonstration locale. Installer le cœur n’exige ni Qwen, ni llama.cpp, ni Ollama, ni le frontend de messagerie, ni PostgreSQL, ni Django. La dépendance Python obligatoire est `pydantic==2.13.4` ; Python 3.12 minimum est déclaré, et la validation actuelle utilise Python 3.14.
+Cette procédure concerne le composant. Les commandes `tools/setup.py`, `tools/setup_mail.py`, `start.py`, `stop.py` et `agentfuse-ui` servent uniquement à la démonstration locale. Installer le cœur n’exige ni Qwen, ni llama.cpp, ni Ollama, ni le frontend de messagerie, ni PostgreSQL, ni Django. La dépendance Python obligatoire est `pydantic==2.13.4` ; Python 3.12 minimum est déclaré, et la validation actuelle utilise Python 3.14.
 
 ## 1. Livrer un paquet versionné
 

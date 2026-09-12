@@ -12,6 +12,8 @@ L’agent exprime uniquement son besoin métier ; le backend applique les règle
 6. Vérifier ensemble l’empreinte du PDF d’entrée commun, la proposition de transfert du modèle, le nombre de réceptions réelles, les copies classées avant l’arrêt, le rapport de provenance et la quarantaine. Télécharger le `.eml` réellement reçu dans la branche de référence et ouvrir sa pièce jointe ; la branche protégée ne doit pas présenter cet effet de livraison. Chaque branche renvoie vers sa véritable conversation native Conversations.
 7. Choisir ensuite le CV témoin sain, pour confirmer l’achèvement normal sans blocage ni approbation superflus. La page des règles permet de publier par formulaire une règle de blocage d’un dossier et d’expliquer qu’elle ne touche que l’opération correspondante.
 
+Après la présentation, exécuter `python3 stop.py` depuis la racine du dépôt pour arrêter les cinq services et conserver les données. `python3 tools/manage.py status` affiche leur état ; fermer le terminal ne suffit pas à les arrêter. Voir les [options d'arrêt](../README.md#arrêter-la-démonstration).
+
 ## Critères de réussite
 
 La réponse du modèle ou la couleur de la page ne suffisent pas. Une démonstration complète d’injection exige simultanément :

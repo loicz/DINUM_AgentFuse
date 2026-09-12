@@ -67,6 +67,19 @@ python3 start.py --restart
 
 Le redémarrage ne gère que les services lancés depuis ce répertoire et conserve messages, pièces jointes, archives, versions de politique et historique. Les tâches interrompues sont marquées comme inachevées ; leurs effets réels et leur audit sont conservés, sans réexécution automatique.
 
+### Arrêter la démonstration
+
+Les services démarrent en arrière-plan : fermer le terminal ou interrompre `start.py` avec Ctrl+C ne les arrête pas. Depuis la racine du dépôt :
+
+```sh
+python3 stop.py
+python3 tools/manage.py status
+```
+
+`stop.py` (équivalent à `python3 tools/manage.py stop`) arrête l'entrée HTTP, le frontend, le backend Conversations, puis le modèle et PostgreSQL. Il vérifie le propriétaire et les chemins propres à ce dépôt dans les processus Linux ; les anciens fichiers PID ne suffisent pas à désigner un processus à arrêter. Il attend chaque sortie, avec un délai de 30 secondes par processus, et demande à PostgreSQL un arrêt rapide et propre. Si un processus ne sort pas, la commande retourne un échec et conserve les services suivants ; aucun `SIGKILL` n'est envoyé. Pour laisser davantage de temps aux requêtes en cours : `python3 stop.py --timeout 120`.
+
+La commande peut être répétée quand les services sont déjà arrêtés et ne dépend que du Python système, sans `.venv/` ni téléchargement. Les messages, PDF, conversations, archives, clés et journaux dans `.runtime/` sont conservés. Relancer `python3 start.py` pour reprendre la démonstration ; les tâches interrompues ne sont pas rejouées automatiquement. La commande historique `python3 tools/manage.py stop-app` reste limitée à l'entrée HTTP.
+
 | Adresse/répertoire | Rôle |
 | --- | --- |
 | `127.0.0.1:8787` | Point d’entrée du produit |

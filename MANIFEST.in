@@ -1,4 +1,4 @@
-include AGENTS.md README.md THIRD_PARTY.md requirements.lock start.py
+include AGENTS.md README.md THIRD_PARTY.md requirements.lock start.py stop.py
 include src/agentfuse/assets/NotoSansSC.ttf src/agentfuse/assets/OFL.txt
 recursive-include src/agentfuse/mail_web *
 recursive-include src/agentfuse/mail_fixtures *

@@ -59,5 +59,6 @@ def main():
     else:print('Messagerie non démarrée. Exécutez python3 tools/setup_mail.py puis relancez.')
     print('Comptes de démonstration : alice / admin ; mot de passe : agentfuse-demo')
     print('Modèle, données et journaux dans .runtime/ ; le démarrage peut être répété.')
+    print('Arrêter tous les services : python3 stop.py')
     return 0
 if __name__=='__main__':sys.exit(main())

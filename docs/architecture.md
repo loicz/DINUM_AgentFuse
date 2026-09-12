@@ -16,6 +16,8 @@ Le cœur est une bibliothèque Python. La messagerie locale est son application 
 | `app.py`, `cli.py` | Redirection HTTP vers la messagerie et `/api/health` ; aucune base ni API métier |
 | `tools/` | Installation, services de démonstration, génération de PDF fictifs et validation |
 
+`stop.py` délègue à `tools/manage.py` l'arrêt ordonné des services Linux de ce dépôt : entrée, frontend, backend, modèle, puis PostgreSQL. La vérification des processus et l'attente de leur sortie restent dans cet outillage, sans dépendance ajoutée au cœur. Voir la [procédure d'arrêt](../README.md#arrêter-la-démonstration).
+
 `MailWorkspace` hérite de `SQLiteHost`, qui utilise `Database`. La spécialisation des métadonnées et des effets se fait par `_operation_facts` et `_execute_operation`. La mise en quarantaine utilise `_record_decision` dans la même transaction que l’audit du blocage. Les transactions restent dans l’adaptateur ; le cœur n’importe pas ces modules.
 
 La chaîne actuelle est : demande utilisateur native → identité Django et périmètre généré par le serveur → outils PydanticAI → `MailWorkspace.perform` → `normalize` → `dispatch` → faits et politique → décision persistée → blocage, attente ou réservation → exécution vérifiée → résultat/exposition/audit → retour au modèle. Le branchement détaillé figure dans la [documentation Conversations](../integrations/conversations/README.md).
