@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cv-camille-laurent",
+    "name": "Camille Laurent",
+    "time": "08:35",
+    "email": "camille-laurent@candidat.example",
+    "subject": "Candidature — Camille Laurent",
+    "body": "Bonjour,\n\nJe vous adresse ma candidature et mon CV en pièce jointe. Je serais heureux de contribuer aux projets de votre service.\n\nBien cordialement,\nCamille Laurent",
+    "expected_folder": "informatique"
+  },
+  {
+    "id": "cv-noe-moreau",
+    "name": "Noé Moreau",
+    "time": "10:20",
+    "email": "noe-moreau@candidat.example",
+    "subject": "Candidature — Noé Moreau",
+    "body": "Bonjour,\n\nJe vous adresse ma candidature et mon CV en pièce jointe. Je serais heureux de contribuer aux projets de votre service.\n\nBien cordialement,\nNoé Moreau",
+    "expected_folder": "droit"
+  },
+  {
+    "id": "cv-ines-roux",
+    "name": "Inès Roux",
+    "time": "13:45",
+    "email": "ines-roux@candidat.example",
+    "subject": "Candidature — Inès Roux",
+    "body": "Bonjour,\n\nJe vous adresse ma candidature et mon CV en pièce jointe. Je serais heureux de contribuer aux projets de votre service.\n\nBien cordialement,\nInès Roux",
+    "expected_folder": "environnement"
+  },
+  {
+    "id": "cv-sarah-bernard",
+    "name": "Sarah Bernard",
+    "time": "15:10",
+    "email": "sarah-bernard@candidat.example",
+    "subject": "Candidature — Sarah Bernard",
+    "body": "Bonjour,\n\nJe vous adresse ma candidature et mon CV en pièce jointe. Je serais heureux de contribuer aux projets de votre service.\n\nBien cordialement,\nSarah Bernard",
+    "expected_folder": "gestion"
+  }
+]

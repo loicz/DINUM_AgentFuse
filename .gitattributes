@@ -1,0 +1,2 @@
+# Preserve the exact bytes and hashes of the frozen PDF demo fixtures.
+*.pdf binary

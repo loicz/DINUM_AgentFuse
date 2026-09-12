@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentfuse-pilot"
+version = "0.1.0"
+description = "Composant de contrôle des outils et intégration locale de messagerie"
+requires-python = ">=3.12"
+dependencies = ["pydantic==2.13.4"]
+
+[project.optional-dependencies]
+app = ["fastapi==0.141.1", "uvicorn==0.52.4", "httpx==0.28.1"]
+test = ["pytest==9.1.1", "pytest-asyncio==1.4.0", "playwright==1.62.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+agentfuse = ["assets/NotoSansSC.ttf", "assets/OFL.txt", "mail_web/*", "mail_fixtures/*"]
+
+[project.scripts]
+agentfuse-ui = "agentfuse.cli:main"

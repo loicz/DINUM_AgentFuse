@@ -1,0 +1,26 @@
+{
+  "uuid-1.6.2-68.fc44.x86_64.rpm": {
+    "sha256": "1bede19b2e918601738085d7387e804180838c76d6539c59a2035db6076ec25a",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/releases/44/Everything/x86_64/os/Packages/u/uuid-1.6.2-68.fc44.x86_64.rpm"
+  },
+  "postgresql-server-18.6-1.fc44.x86_64.rpm": {
+    "sha256": "b167a197dfb74aa328a80e43d5a2c59b672fdcacafa93699358dc27222df23ad",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/updates/44/Everything/x86_64/Packages/p/postgresql-server-18.6-1.fc44.x86_64.rpm"
+  },
+  "postgresql-private-libs-18.6-1.fc44.x86_64.rpm": {
+    "sha256": "3e134be79da9cd173edc437ff45a805e7250856a251f08050d3dd7ff6308197e",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/updates/44/Everything/x86_64/Packages/p/postgresql-private-libs-18.6-1.fc44.x86_64.rpm"
+  },
+  "postgresql-contrib-18.6-1.fc44.x86_64.rpm": {
+    "sha256": "4bc17eff20d5801a29ae778532d116f581d213e08714e84b1b04cc4fc925c29a",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/updates/44/Everything/x86_64/Packages/p/postgresql-contrib-18.6-1.fc44.x86_64.rpm"
+  },
+  "postgresql-18.6-1.fc44.x86_64.rpm": {
+    "sha256": "7701e2a7096e46f0426d3fe55b1be817adf4cb29a744f6afcfb1607a126ee508",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/updates/44/Everything/x86_64/Packages/p/postgresql-18.6-1.fc44.x86_64.rpm"
+  },
+  "libxslt-1.1.43-6.fc44.x86_64.rpm": {
+    "sha256": "bf3abcd45083190ea0833d3332526712dee545a7e0d8898307efe5f623ed007f",
+    "url": "https://dl.fedoraproject.org/pub/fedora/linux/releases/44/Everything/x86_64/os/Packages/l/libxslt-1.1.43-6.fc44.x86_64.rpm"
+  }
+}

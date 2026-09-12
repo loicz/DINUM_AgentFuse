@@ -1,0 +1,17 @@
+{
+  "upstream_commit": "4d6edc79be5ccfa34e57497a07311e8a1f2bba74",
+  "archives": {
+    "conversations-source.tar.gz": {
+      "url": "https://codeload.github.com/suitenumerique/conversations/tar.gz/4d6edc79be5ccfa34e57497a07311e8a1f2bba74",
+      "sha256": "8c98972cfc865b9b19d6f07e36989d88e03998c724ebcbc32e23b42cd839b131"
+    },
+    "node22.tar.xz": {
+      "url": "https://nodejs.org/dist/v22.23.2/node-v22.23.2-linux-x64.tar.xz",
+      "sha256": "d60acfe00a2932254bb0ad20e01b0d74397a0875595de719654b214f4b03f307"
+    },
+    "cl100k_base.tiktoken": {
+      "url": "https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken",
+      "sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7"
+    }
+  }
+}

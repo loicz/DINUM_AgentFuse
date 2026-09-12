@@ -1,0 +1,25 @@
+{
+  "edition": "fr-publication-2026-09-11",
+  "files": [
+    {
+      "file": "pair-b4720c1ba7913118.json",
+      "original_sha256": "39083d26d6e0e8138e11644323d14ee02f78d9aeec362ab5d3f576b30f28aaa2",
+      "published_sha256": "2289117ea23bd30eabe1ee0726776ac074064469522e24ecd43517476f2b5400"
+    },
+    {
+      "file": "pair-b4720c1ba7913118-streams.json",
+      "original_sha256": "330a229bc612eb544f0d980a8d63f7d3bab6ac8e59af11e61c4e1caf9e8bf352",
+      "published_sha256": "e92375c577f4dca86827f16ddb45c2b0403b410ad3ca453a1cd885d44698beb9"
+    },
+    {
+      "file": "pair-c54eaf5a66136dac.json",
+      "original_sha256": "191e067b1b5528e685189eeb020142ffcb2773b747ba24fd4c630ed5b18b9825",
+      "published_sha256": "dcb7a15a0145e06eb67c7957cc2a92a9dd97fbe5d05746d1382d7ee042617ae7"
+    },
+    {
+      "file": "pair-c54eaf5a66136dac-streams.json",
+      "original_sha256": "0ffd9145af47ff9dd98b9c1d48a8f14c24a2a72924819e07e95aed97b7ff8979",
+      "published_sha256": "c1530ad4d07291cb2428a85b0570b743e56bad3d653a425367c99d282fb5f92c"
+    }
+  ]
+}
