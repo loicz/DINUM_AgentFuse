@@ -21,6 +21,8 @@ La distribution est `agentfuse-pilot`, le module Python `agentfuse`. Le cœur d�
 
 Pour développer : lire les [responsabilités et le plan des fichiers](docs/architecture.md) et les [instructions du dépôt](AGENTS.md). `storage.py` porte SQLite, `host.py` l’exécution protégée et `mailbox.py` le métier de la messagerie. Les exemples d’utilisation du cœur et de PDF locaux sont dans `examples/`.
 
+Pour préparer les connexions aux services réels de La Suite, consulter l’[étude des intégrations et la proposition de produit](docs/lasuite-integration-study.md) : applications disponibles, fonctionnement côté serveur, responsabilités d’installation et ordre de réalisation. Cette proposition est distincte des capacités actuellement livrées.
+
 ## Essayer la messagerie locale
 
 Après l’installation de la démonstration décrite ci-dessous, depuis la racine de ce dépôt :
